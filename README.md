@@ -44,13 +44,9 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Run `npm run build` to create a production build in the `dist` folder. Deploy the contents of the `dist` folder to any static hosting service (e.g., Netlify, Vercel, GitHub Pages). Access the VR entry at `/vr-entry.html` after deployment.
 
-Note: Replace `REPLACE_WITH_PROJECT_ID` with your actual Lovable project ID before deploying. Access the VR entry at `/vr-entry.html` after deployment.
+## Can I connect a custom domain?
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Yes, most hosting platforms support custom domains. Check your hosting provider's documentation for setup instructions.
 
